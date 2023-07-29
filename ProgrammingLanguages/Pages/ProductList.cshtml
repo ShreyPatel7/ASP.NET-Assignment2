@@ -1,0 +1,64 @@
+﻿@page
+@model ProgrammingLanguages.Pages.ProductListModel
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h1>Programming Languages and Framework List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Website</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <!-- Startting of loop through each product in the Model.Products list -->
+
+            <tr>
+                <!-- Starting of a table row for each product -->
+
+                <td>@product.Id</td>
+                <!-- Displaing the Id property of the current product -->
+
+                <td>@product.Name</td>
+                <!-- Displaing the Name property of the current product -->
+
+                <td>@product.Type</td>
+                <!-- Displaing the Type property of the current product -->
+
+                <td>@product.Description</td>
+                <!-- Displaing the Description property of the current product -->
+
+                <td>
+                    <!-- Startting of a table cell to display the product's image -->
+
+                    <img src="@product.Image" alt="@product.Name" style="max-width: 100px; max-height: 100px;" />
+                    <!-- Displaing the product's image using the Image property and set max width and height for the image -->
+
+                </td>
+                <!-- Ending of the table cell for the product's image -->
+
+                <td>
+                    <!-- Startting of a table cell to display the product's website link -->
+
+                    <a href="@product.Website" target="_blank">Visit</a>
+                    <!-- Displaing a link with the product's website URL as the href and open the link in a new tab (target="_blank") -->
+
+                </td>
+                <!-- Ending of the table cell for the product's website link -->
+
+            </tr>
+            <!-- Ending of the table row for the current product -->
+        }
+        <!-- Ending of loop through each product in the Model.Products list -->
+
+    </tbody>
+</table>

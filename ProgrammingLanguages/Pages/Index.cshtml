@@ -1,0 +1,49 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h1>Welcome to Our Project!</h1>
+
+<p>This is a brief introduction about our project. We have built an ASP.NET Core Web Application as part of our assignment. The main focus of this project was to create a Web API using JSON data format and display it using the Model-View-Controller (MVC) design pattern.</p>
+
+<h2>Project Topic: Programming Languages and Frameworks</h2>
+
+<p>Our project topic revolves around programming languages and frameworks. We have created a JSON data file that contains information about various programming languages and frameworks, including their names, types, descriptions, images, and official websites.</p>
+
+<h2>Languages and Frameworks Used:</h2>
+
+<p>To create this project, we used the following languages, frameworks, and tools:</p>
+<ul>
+    <li>C#: We utilized C#, a modern, general-purpose programming language developed by Microsoft, to implement the server-side logic of our ASP.NET Core Web Application.</li>
+    <li>ASP.NET Core: We chose ASP.NET Core as our web framework for building modern, cross-platform web applications.</li>
+    <li>HTML/CSS: We used HTML and CSS to design the layout and styling of our web pages.</li>
+    <li>Razor Pages: We leveraged Razor Pages, a view engine in ASP.NET Core, to create dynamic web pages that integrate C# code and HTML seamlessly.</li>
+    <li>JSON: We used JSON (JavaScript Object Notation) as the data format to store information about programming languages and frameworks in a structured and lightweight manner.</li>
+    <li>Visual Studio 2022 Community Edition: We used Visual Studio as our Integrated Development Environment (IDE) to develop and debug our ASP.NET Core Web Application.</li>
+    <li>Dependency Injection: We employed Dependency Injection to inject the ProgrammingService into our Razor pages, allowing easy access to the JSON data service throughout the project.</li>
+    <li>Windows Azure (for deployment): Finally, we deployed our web application to Windows Azure, a cloud computing platform, to make it accessible online.</li>
+</ul>
+
+<h2>Step-by-Step Project Development:</h2>
+
+<p>Here is a step-by-step overview of how we developed this project:</p>
+<ol>
+    <li>We started by creating a new ASP.NET Core Web Application project in Visual Studio 2022.</li>
+    <li>We designed the folder structure as per the assignment instructions, including Models, Services, and Pages folders.</li>
+    <li>We added the JSON data file named "ProgrammingData.json" inside the wwwroot/data folder, containing information about programming languages and frameworks.</li>
+    <li>In the Models folder, we created the ProgrammingModel class to represent the structure of the JSON data.</li>
+    <li>In the Services folder, we created the ProgrammingService class to handle reading and deserializing the JSON data.</li>
+    <li>In the Pages folder, we created the ProductListModel class for the "JSON Properties" page and the AboutUsModel class for the "About Us" page.</li>
+    <li>In each Razor page, we used C# to retrieve data from the `ProgrammingService` and display it on the web pages using HTML and Razor syntax.</li>
+    <li>We updated the layout (_Layout.cshtml) to include links to the "JSON Properties" page and the "About Us" page in the navigation bar.</li>
+    <li>Finally, we deployed our ASP.NET Core Web Application to Windows Azure to make it accessible online for presentation.</li>
+</ol>
+
+<p>Overall, this project provided us with hands-on experience in ASP.NET Core, JSON, MVC, and other web development concepts. We enjoyed working on this assignment and learning how to create interactive web applications using the tools and languages mentioned above.</p>

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "C#",
+    "type": "Programming Language",
+    "description": "C# is a modern, general-purpose programming language developed by Microsoft.",
+    "image": "https://plus.unsplash.com/premium_photo-1663040543387-cb7c78c4f012?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "website": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+  },
+  {
+    "id": 2,
+    "name": "Java",
+    "type": "Programming Language",
+    "description": "Java is a popular programming language known for its portability and scalability.",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "website": "https://www.java.com/"
+  },
+  {
+    "id": 3,
+    "name": "Python",
+    "type": "Programming Language",
+    "description": "Python is a high-level programming language known for its simplicity and readability.",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "website": "https://www.python.org/"
+  },
+  {
+    "id": 4,
+    "name": "JavaScript",
+    "type": "Programming Language",
+    "description": "JavaScript is a versatile scripting language used for web development.",
+    "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "type": "Front-end Framework",
+    "description": "React is a JavaScript library for building user interfaces.",
+    "image": "https://plus.unsplash.com/premium_photo-1678566111481-8e275550b700?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "website": "https://reactjs.org/"
+  },
+  {
+    "id": 6,
+    "name": "Angular",
+    "type": "Front-end Framework",
+    "description": "Angular is a TypeScript-based framework for building dynamic web applications.",
+    "image": "https://plus.unsplash.com/premium_photo-1678566111481-8e275550b700?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "website": "https://angular.io/"
+  },
+  {
+    "id": 7,
+    "name": "ASP.NET Core",
+    "type": "Web Framework",
+    "description": "ASP.NET Core is a cross-platform framework for building modern web applications.",
+    "image": "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "website": "https://dotnet.microsoft.com/apps/aspnet"
+  },
+  {
+    "id": 8,
+    "name": "Ruby",
+    "type": "Programming Language",
+    "description": "Ruby is a dynamic, object-oriented programming language known for its simplicity.",
+    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "website": "https://www.ruby-lang.org/"
+  },
+  {
+    "id": 9,
+    "name": "Node.js",
+    "type": "Runtime Environment",
+    "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "website": "https://nodejs.org/"
+  },
+  {
+    "id": 10,
+    "name": "Vue.js",
+    "type": "Front-end Framework",
+    "description": "Vue.js is a progressive JavaScript framework for building user interfaces.",
+    "image": "https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "website": "https://vuejs.org/"
+  }
+]
